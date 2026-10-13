@@ -1,0 +1,11 @@
+gymnasium[toy-text,mujoco]==1.2.3
+ipython
+ipykernel==7.2.0
+jupyter
+matplotlib==3.10.9
+numpy==2.4.6
+Pillow
+seaborn==0.13.2
+stable-baselines3==2.8.0
+torch==2.12.0
+tqdm==4.67.3
