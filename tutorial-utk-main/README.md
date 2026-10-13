@@ -1,40 +1,37 @@
-# 🎓 Reinforcement Learning Summer School (RLSS) 2026
+# 🎓 ECE 414 / 517 — Reinforcement Learning
 
-**Politecnico di Milano | June 3rd - 12th, 2026**
+**University of Tennessee, Knoxville | Fall 2026**
 
-Welcome to the official tutorial repository for the Reinforcement Learning Basics Session I and II @ Reinforcement Learning Summer School 2026!
+Welcome to the course tutorial repository for **ECE 414 / 517: Reinforcement Learning**.
 
-This repository contains all the practical coding tutorials we will be using throughout the sessions.
+This repository contains the practical coding tutorials used in the course, including student exercise notebooks, reference solutions, and the supporting files needed to run them in Google Colab or locally.
 
 ## 🚀 Interactive Tutorials
 
-You don't need to install anything on your local machine to participate. All tutorials are designed to run directly in the cloud using Google Colab. 
-Alternatively, if you prefer to work locally, you can download the notebooks and set up the required environment as:
+You do not need to install anything on your local machine to use these tutorials. The notebooks can run directly in Google Colab.
 
-```bash
-conda create -n rlss2026-basics python=3.11
-conda activate rlss2026-basics
-pip install -r requirements.txt
-```
+| 📚 Tutorial Module | 📝 Description | 💻 Student Exercise | 🔒 Reference Solution |
+| :----------------- | :------------- | :------------------ | :-------------------- |
+| **Basics of RL I** | Gymnasium API, tabular RL, prediction, and control. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/utkauraslab/ECE414-517_RL/blob/main/RL-basics/RL01_Intro_to_RL.ipynb) | [Open Solution in Colab](https://colab.research.google.com/github/utkauraslab/ECE414-517_RL/blob/main/RL-basics/RL01_Intro_to_RL_solution.ipynb) |
+| **Basics of RL II** | Policy gradient algorithms. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/utkauraslab/ECE414-517_RL/blob/main/policy-gradient/RL02__Policy_gradient_methods.ipynb) | [Open Solution in Colab](https://colab.research.google.com/github/utkauraslab/ECE414-517_RL/blob/main/policy-gradient/RL02__Policy_gradient_methods_solution.ipynb) |
 
-Choose a tutorial from the table below and click the badge to launch it.
-
-| 📚 Tutorial Module  | 📝 Description                                                        | 💻 Interactive Link                                                                                                                                                                                           |
-| :------------------ | :-------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **Basics of RL I**  | Tabular RL and Gymnasium API.                                       | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gianmtedeschi/tutorial-rlss26/blob/main/RL-basics/RL01_Intro_to_RL.ipynb)      |
-| **Basics of RL II** | Policy Gradient Algorithms. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gianmtedeschi/tutorial-rlss26/blob/main/policy-gradient/RL02__Policy_gradient_methods.ipynb) |
-
----
+> **Note:** The passcode for accessing the reference solutions will be provided during class.
 
 ## 🛠️ Instructions for Students
 
-1. **Open the notebook:** Click the "Open in Colab" badge next to the tutorial you want to work on.
-2. **Save a copy:** The notebook will open in a temporary sandbox. To save your progress and execute the code, click **`File > Save a copy in Drive`**.
-3. **Run the code:** You can now edit the code, train your agents, and run the visualization cells in your personal copy.
+1. **Open the notebook:** Click the Colab link for the tutorial you want to use.
+2. **Save your own copy:** In Colab, select **`File > Save a copy in Drive`** before making changes.
+3. **Run the notebook:** Execute the cells in order and complete the marked TODO sections.
+4. **Review the results:** Use the generated outputs and visualizations to understand the RL algorithm behavior.
 
-## 📁 Repository Structure
+## 💻 Optional Local Setup
 
-- `/RL-basics/` - Notebooks for introductory concepts and tabular methods.
-- `/policy-gradient/` - Notebooks covering advanced gradient-based methods.
+If you prefer to work locally, clone this repository and create a Python environment:
 
----
+```bash
+git clone https://github.com/utkauraslab/ECE414-517_RL.git
+cd ECE414-517_RL
+
+conda create -n ece414517-rl python=3.11
+conda activate ece414517-rl
+pip install -r requirements.txt
